@@ -11,14 +11,19 @@
     <title>New York Times Search</title>
 </head>
 <body>
+<div class="mb-5">
+    <header class="header-contain navbar-dark bg-dark">
+        <h1>New York Times Search</h1>
+    </header>
+</div>
 
-<div class="container">
-    <nav class="navbar navbar-light bg-light">
+<div class="container" id="box">
+    <nav class="navbar navbar-dark bg-dark">
         <span class="navbar-brand mb-0 h1">Search Parameters</span>
     </nav>
     <form id="search-form">
         <div class="form-group">
-            <label> Search Term:</label>
+            <label for="search-term"> Search Term:</label>
             <input id="search-term" type="text" class="form-control">
         </div>
         <div class="form-group">
@@ -42,13 +47,17 @@
     </form>
 </div>
 <div class="container">
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-dark bg-dark">
         <span class="navbar-brand mb-0 h1">Top Articles</span>
     </nav>
     <div id="articles">
     </div>
 </div>
 
+<footer class="navbar-dark bg-dark">
+    <p>Made with lots o' love by <br>
+    Cameron, Ryan, David, Dan</p>
+</footer>
     
 </body>
 </html>
