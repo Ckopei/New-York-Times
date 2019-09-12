@@ -26,6 +26,7 @@ $(document).ready(function () {
                 wellSection.attr("class", "counter");
                 wellSection.attr("data-article-" + articleCounter);
                 a.attr("href", articleURL)
+                a.attr("target", "_blank")
                 a.text(headlines);
                 wellSection.append(a);
                 $("#articles").append(wellSection);
