@@ -8,7 +8,7 @@ $(document).ready(function () {
         var articleCounter = 0;
         var startYear = "begin_date=" + $("#start-year").val() + "0101"
         var endYear = "&end_date=" + $("#end-year").val() + "0101"
-        var searchTerm = $("search-term").val()
+        var searchTerm = $("#search-term").val()
         var numArticles = $("#records-num").val()
         var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?"+startYear+endYear+"+&q="+ searchTerm+"&sort=newest&api-key=SGPpcmFpXFAh90XV4TR2KvprCYlJA6Sy"
 
