@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     $("#search").on("click", function (event) {
         $("#articles").empty()
         event.preventDefault()
